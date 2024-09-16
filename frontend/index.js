@@ -69,7 +69,7 @@ async function displayAllTaxPayers() {
 
 // Event listeners
 document.getElementById('addTaxPayerForm').addEventListener('submit', addTaxPayer);
-window.searchTaxPayer = searchTaxPayer;
+document.getElementById('searchButton').addEventListener('click', searchTaxPayer);
 
 // Initial display of all TaxPayers
 displayAllTaxPayers();
